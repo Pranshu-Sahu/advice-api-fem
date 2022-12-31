@@ -14,7 +14,7 @@ function disableBtn() {
   btn.setAttribute("disabled", "");
   setTimeout(() => {
     btn.removeAttribute("disabled");
-  }, 5000);
+  }, 2000);
 }
 
 btn.addEventListener("click", getAdvice);
